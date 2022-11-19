@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&family=Sacramento&display=swap');
+body{
+    background: rgb(255,166,0);
+    background: linear-gradient(90deg, rgba(255,166,0,1) 0%, rgba(252,194,69,1) 35%, rgba(255,237,79,1) 100%);
+    padding: 5px;
+}
+.header{
+    display: flex;
+    background-color: #fff;
+    height: 100px;
+    border-radius: 20px;
+    box-shadow: 5px 2px 7px #e8e8e8;
+    font-family: "Sacramento";
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.navbar {
+    width: 100%;
+    background: linear-gradient(90deg,rgba(255,166,0,1), rgba(255,166,0,1));
+    overflow: auto;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+  
+/* Navbar links */
+.navbar a {
+    float: left;
+    text-align: center;
+    padding: 12px;
+    color: rgb(10, 8, 8);
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Baskervville";
+}
+  
+/* Navbar links on mouse-over */
+.navbar a:hover {
+    background-color: #fffdf8;
+}
+  
+/* Current/active navbar link */
+.active {
+    background-color: #fbd67a;
+}
+  
+/* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+  @media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+    }
+  }
